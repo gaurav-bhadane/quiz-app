@@ -1,0 +1,21 @@
+.option_res{
+    width: 40rem;
+    height: 6rem;
+    margin-top: 2.5rem;
+    display: flex;
+    border-radius: 40px;
+    border:1px solid green;
+  }
+
+.option_res p{
+    font-size: 1.75rem;
+    padding-left: 1.5rem;
+}
+
+.option_correct_option{
+    background-color: #44B77B;
+}
+
+.option_incorrect_option{
+    background-color: #FF3B3F;
+}

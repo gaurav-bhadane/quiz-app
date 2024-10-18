@@ -1,0 +1,83 @@
+.gauge-container {  
+    width: 200px;  
+    height: 200px;  
+    border-radius: 50%;  
+    background-color: #fff;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+  }  
+    
+  .gauge {  
+    width: 150px;  
+    height: 150px;  
+    border-radius: 50%;  
+    background-color: #fff;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+  }  
+    
+  .needle {  
+    width: 10px;  
+    height: 100px;  
+    background-color: #333;  
+    transform-origin: bottom center;  
+  }  
+    
+  .value {  
+    font-size: 24px;  
+    font-weight: bold;  
+    color: #333;  
+  }  
+    
+  .colors {  
+    width: 100%;  
+    height: 20px;  
+    display: flex;  
+    justify-content: space-between;  
+  }  
+    
+  .red {  
+    background-color: #f00;  
+    width: 30%;  
+  }  
+    
+  .yellow {  
+    background-color: #ff0;  
+    width: 30%;  
+  }  
+    
+  .green {  
+    background-color: #0f0;  
+    width: 40%;  
+  }  
+    
+  .labels {  
+    width: 100%;  
+    height: 20px;  
+    display: flex;  
+    justify-content: space-between;  
+  }  
+    
+  .red-label {  
+    background-color: #f00;  
+    width: 10px;  
+    height: 10px;  
+    border-radius: 50%;  
+  }  
+    
+  .yellow-label {  
+    background-color: #ff0;  
+    width: 10px;  
+    height: 10px;  
+    border-radius: 50%;  
+  }  
+    
+  .green-label {  
+    background-color: #0f0;  
+    width: 10px;  
+    height: 10px;  
+    border-radius: 50%;  
+  }
+  
